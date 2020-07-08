@@ -14,19 +14,19 @@ svg {
 .gear-icon,
 .hammer-icon,
 .heart-icon {
-  transform-origin: 50% 50%;
+  transform-origin: 200px 50px;
 }
 
 /* --------------------------
   GEAR
 --------------------------- */
 
-.gear:hover .gear-icon {
-  transform: rotate(45deg) scale(1.3);
-}
-
 .gear-icon {
   transition: transform .4s ease-out;
+}
+
+.gear:hover .gear-icon {
+  transform: rotate(45deg) scale(1.3);
 }
 
 /* --------------------------
